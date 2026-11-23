@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d18" />
+      <stop offset="50%" stop-color="#101935" />
+      <stop offset="100%" stop-color="#070913" />
+    </linearGradient>
+
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <radialGradient id="orb-glow-1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orb-glow-2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orb-glow-3" cx="70%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="tech-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+      <circle cx="40" cy="0" r="1.5" fill="#6366f1" fill-opacity="0.5" />
+    </pattern>
+
+    <!-- Filter for soft neon glow -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="pill-shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      fill: #ffffff;
+      letter-spacing: -1px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .tagline-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #38bdf8;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    
+    /* Dynamic floating and pulsing CSS animations */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.6; }
+      50% { transform: scale(1.15) translate(-20px, 15px); opacity: 0.85; }
+    }
+    @keyframes floatCard1 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(0.8deg); }
+    }
+    @keyframes floatCard2 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(10px) rotate(-0.8deg); }
+    }
+    @keyframes dashCycle {
+      to { stroke-dashoffset: -100; }
+    }
+    @keyframes beaconBlink {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.4); }
+    }
+
+    .animated-orb-1 { animation: pulseOrb 12s ease-in-out infinite; transform-origin: 20% 30%; }
+    .animated-orb-2 { animation: pulseOrb 15s ease-in-out infinite reverse; transform-origin: 80% 70%; }
+    .floating-card-left { animation: floatCard1 7s ease-in-out infinite; }
+    .floating-card-right { animation: floatCard2 8s ease-in-out infinite; }
+    .animated-wire { stroke-dasharray: 6, 6; animation: dashCycle 6s linear infinite; }
+    .beacon { animation: beaconBlink 3s ease-in-out infinite; transform-origin: center; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)" />
+
+  <!-- Ambient Glowing Orbs in Background -->
+  <circle class="animated-orb-1" cx="240" cy="140" r="280" fill="url(#orb-glow-1)" />
+  <circle class="animated-orb-2" cx="980" cy="280" r="320" fill="url(#orb-glow-2)" />
+  <circle cx="860" cy="80" r="180" fill="url(#orb-glow-3)" />
+
+  <!-- Tech Geometric Grid -->
+  <rect width="1200" height="420" rx="16" fill="url(#tech-grid)" />
+
+  <!-- Background Decorative Data Flow Curves (Strictly Behind Foreground Text) -->
+  <g opacity="0.35">
+    <path class="animated-wire" d="M 60 360 C 240 280, 320 390, 520 340 C 720 290, 880 370, 1140 330" fill="none" stroke="#6366f1" stroke-width="2.5" />
+    <path class="animated-wire" d="M 80 80 C 300 140, 480 30, 700 80 C 920 130, 1020 40, 1120 70" fill="none" stroke="#06b6d4" stroke-width="2" />
+  </g>
+
+  <!-- Left Side Visual Badge / Dynamic Node (Behind Title Area Bounds) -->
+  <g class="floating-card-left" transform="translate(60, 40)" opacity="0.8">
+    <rect width="160" height="74" rx="12" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" filter="url(#pill-shadow)"/>
+    <circle cx="28" cy="37" r="12" fill="#3b82f6" fill-opacity="0.25"/>
+    <circle cx="28" cy="37" r="6" fill="#3b82f6" />
+    <text x="50" y="33" fill="#cbd5e1" font-family="sans-serif" font-size="12" font-weight="700">PIPELINE DEALS</text>
+    <text x="50" y="52" fill="#10b981" font-family="sans-serif" font-size="14" font-weight="800">$2.4M Won ↗</text>
+  </g>
+
+  <!-- Right Side Visual Badge / Dynamic Node -->
+  <g class="floating-card-right" transform="translate(980, 50)" opacity="0.85">
+    <rect width="165" height="74" rx="12" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" filter="url(#pill-shadow)"/>
+    <circle cx="28" cy="37" r="12" fill="#10b981" fill-opacity="0.25"/>
+    <circle cx="28" cy="37" r="6" fill="#10b981" class="beacon"/>
+    <text x="50" y="33" fill="#cbd5e1" font-family="sans-serif" font-size="12" font-weight="700">LEAD CONVERSION</text>
+    <text x="50" y="52" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="800">42.8% Sync Rate</text>
+  </g>
+
+  <!-- FOREGROUND HERO CONTENT (Ensured 100% visible & readable) -->
+  <g transform="translate(600, 110)" text-anchor="middle">
+    <!-- Tagline Badge -->
+    <rect x="-170" y="-35" width="340" height="32" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#6366f1" stroke-width="1.5" />
+    <text x="0" y="-14" class="tagline-text" text-anchor="middle">⚡ Curated Ecosystem Guide</text>
+
+    <!-- Main Title -->
+    <text x="0" y="48" class="title-text" text-anchor="middle" filter="url(#neon-glow)">Awesome CRM &amp; Pipeline Tools</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="94" class="subtitle-text" text-anchor="middle">Top SaaS Customer Platforms &amp; Self-Hosted Open-Source CRM Runtimes</text>
+
+    <!-- Feature Description -->
+    <text x="0" y="126" font-family="sans-serif" font-size="14" fill="#64748b" text-anchor="middle">
+      Sales Automation • Relationship Intelligence • Lead Scoring • Open Architecture
+    </text>
+  </g>
+
+  <!-- Interactive/Pill Highlights Bar at Bottom (Foreground) -->
+  <g transform="translate(140, 290)">
+    <!-- Pill 1: Enterprise SaaS -->
+    <g transform="translate(0, 0)" filter="url(#pill-shadow)">
+      <rect width="180" height="42" rx="21" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" fill-opacity="0.9" />
+      <circle cx="24" cy="21" r="7" fill="#3b82f6" />
+      <text x="42" y="26" class="pill-text">Enterprise Cloud</text>
+    </g>
+
+    <!-- Pill 2: Open Source -->
+    <g transform="translate(200, 0)" filter="url(#pill-shadow)">
+      <rect width="210" height="42" rx="21" fill="#1e293b" stroke="#10b981" stroke-width="1.5" fill-opacity="0.9" />
+      <circle cx="24" cy="21" r="7" fill="#10b981" />
+      <text x="42" y="26" class="pill-text">Self-Hosted / AGPL</text>
+    </g>
+
+    <!-- Pill 3: RevOps & Intelligence -->
+    <g transform="translate(430, 0)" filter="url(#pill-shadow)">
+      <rect width="235" height="42" rx="21" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" fill-opacity="0.9" />
+      <circle cx="24" cy="21" r="7" fill="#8b5cf6" />
+      <text x="42" y="26" class="pill-text">RevOps &amp; Marketing</text>
+    </g>
+
+    <!-- Pill 4: Contact & Deals -->
+    <g transform="translate(685, 0)" filter="url(#pill-shadow)">
+      <rect width="230" height="42" rx="21" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" fill-opacity="0.9" />
+      <circle cx="24" cy="21" r="7" fill="#f59e0b" />
+      <text x="42" y="26" class="pill-text">Deals &amp; Pipelines</text>
+    </g>
+  </g>
+
+  <!-- Subtle Bottom Ambient Accent Line -->
+  <rect x="0" y="416" width="1200" height="4" rx="2" fill="url(#primary-glow)" />
+</svg>
