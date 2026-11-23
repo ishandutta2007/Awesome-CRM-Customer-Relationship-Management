@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CRM-Customer-Relationship-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CRM-Customer-Relationship-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CRM-Customer-Relationship-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CRM-Customer-Relationship-Management?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CRM-Customer-Relationship-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CRM-Customer-Relationship-Management?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CRM-Customer-Relationship-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -66,51 +66,51 @@ The sector exhibits **moderate concentration with barbell fragmentation**: enter
 
 ## 💻 Open-Source GitHub Projects
 
-Sorted in descending order by GitHub repository star counts:
+Sorted in descending order by GitHub repository Stars_Counts:
 
-1. **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+1. **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
    Modern, sleek open-source CRM (Salesforce and Attio alternative) built with TypeScript, React, and NestJS featuring Notion-like UI, custom objects, Kanban views, and GraphQL/REST APIs.
 
-2. **[Odoo CRM](https://github.com/odoo/odoo)** [![GitHub Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+2. **[Odoo CRM](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
    Modular open-source business and ERP suite featuring a visual Kanban CRM pipeline, VoIP/email integration, automated lead scoring, and seamless connection to invoicing, inventory, and e-commerce.
 
-3. **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+3. **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
    Full-featured, modern open-source enterprise suite built on Frappe and Python, offering complete CRM lifecycle management, customer communications, quotes, sales orders, and accounting.
 
-4. **[Monica PRM](https://github.com/monicahq/monica)** [![GitHub Stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers)  
+4. **[Monica PRM](https://github.com/monicahq/monica)** [![GitHub_Stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers)  
    Popular open-source Personal Relationship Management (PRM) system designed to organize personal and professional contacts, reminders, notes, interactions, and life milestones.
 
-5. **[Krayin CRM](https://github.com/krayin/laravel-crm)** [![GitHub Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
+5. **[Krayin CRM](https://github.com/krayin/laravel-crm)** [![GitHub_Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
    Modern open-source CRM built on Laravel and Vue.js designed for SMEs and startups with visual lead pipelines, custom attributes, email integration, and activity scheduling.
 
-6. **[Mautic](https://github.com/mautic/mautic)** [![GitHub Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers)  
+6. **[Mautic](https://github.com/mautic/mautic)** [![GitHub_Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers)  
    World's leading open-source marketing automation and lead nurturing platform pairing seamlessly with CRMs for inbound campaign automation, multi-channel attribution, and form capture.
 
-7. **[Dolibarr ERP & CRM](https://github.com/Dolibarr/dolibarr)** [![GitHub Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
+7. **[Dolibarr ERP & CRM](https://github.com/Dolibarr/dolibarr)** [![GitHub_Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
    All-in-one modular open-source PHP/MySQL CRM and ERP suite enabling small businesses, non-profits, and freelancers to manage prospects, customers, proposals, orders, and billing.
 
-8. **[GLPI](https://github.com/glpi-project/glpi)** [![GitHub Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers)  
+8. **[GLPI](https://github.com/glpi-project/glpi)** [![GitHub_Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers)  
    Extensible open-source IT asset, customer service, contract lifecycle, and relationship management platform featuring ticketing, supplier contracts, and CRM-style service desks.
 
-9. **[SuiteCRM](https://github.com/salesagility/SuiteCRM)** [![GitHub Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
+9. **[SuiteCRM](https://github.com/salesagility/SuiteCRM)** [![GitHub_Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
    Enterprise-grade open-source CRM (forked from SugarCRM) offering complete sales force automation, marketing campaigns, customer support case tracking, quotes, and reports.
 
-10. **[erxes](https://github.com/erxes/erxes)** [![GitHub Stars](https://img.shields.io/github/stars/erxes/erxes?style=social&color=white)](https://github.com/erxes/erxes/stargazers)  
+10. **[erxes](https://github.com/erxes/erxes)** [![GitHub_Stars](https://img.shields.io/github/stars/erxes/erxes?style=social&color=white)](https://github.com/erxes/erxes/stargazers)  
     Open-source, self-hosted experience operating system (XOS) combining CRM, team inbox, sales pipelines, marketing automation, and customer feedback into a unified hub.
 
-11. **[Frappe CRM](https://github.com/frappe/crm)** [![GitHub Stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)  
+11. **[Frappe CRM](https://github.com/frappe/crm)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)  
     Ultra-clean, modern dedicated open-source CRM built on the Frappe framework featuring customizable deal stages, call logs, WhatsApp/email integration, and native Frappe interoperability.
 
-12. **[EspoCRM](https://github.com/espocrm/espocrm)** [![GitHub Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+12. **[EspoCRM](https://github.com/espocrm/espocrm)** [![GitHub_Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
     Flagship fast, lightweight self-hosted open-source CRM web application featuring custom entities/layouts, Kanban deal pipelines, calendar/email sync, BPM workflows, and REST APIs.
 
-13. **[Corteza Project](https://github.com/cortezaproject/corteza)** [![GitHub Stars](https://img.shields.io/github/stars/cortezaproject/corteza?style=social&color=white)](https://github.com/cortezaproject/corteza/stargazers)  
+13. **[Corteza Project](https://github.com/cortezaproject/corteza)** [![GitHub_Stars](https://img.shields.io/github/stars/cortezaproject/corteza?style=social&color=white)](https://github.com/cortezaproject/corteza/stargazers)  
     Self-hosted 100% open-source, Salesforce-compatible low-code digital work platform built with Go and Vue.js for managing complex enterprise CRM architectures.
 
-14. **[YetiForce CRM](https://github.com/YetiForceCompany/YetiForceCRM)** [![GitHub Stars](https://img.shields.io/github/stars/YetiForceCompany/YetiForceCRM?style=social&color=white)](https://github.com/YetiForceCompany/YetiForceCRM/stargazers)  
+14. **[YetiForce CRM](https://github.com/YetiForceCompany/YetiForceCRM)** [![GitHub_Stars](https://img.shields.io/github/stars/YetiForceCompany/YetiForceCRM?style=social&color=white)](https://github.com/YetiForceCompany/YetiForceCRM/stargazers)  
     Feature-rich enterprise open-source CRM system providing advanced sales automation, inventory, quote calculations, tickets, and rigorous GDPR/data privacy compliance modules.
 
-15. **[CiviCRM Core](https://github.com/civicrm/civicrm-core)** [![GitHub Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
+15. **[CiviCRM Core](https://github.com/civicrm/civicrm-core)** [![GitHub_Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
     Constituent Relationship Management (CRM) platform built specifically for non-profits, NGOs, humanitarian foundations, advocacy groups, and civic associations.
 
 ---
@@ -132,7 +132,7 @@ Contributions are warmly welcomed! Please follow these simple guidelines:
 
 1. 🍴 **Fork the repository**.
 2. 🌿 Create a descriptive feature branch (`git checkout -b feature/add-new-crm`).
-3. 📝 Add your entry to `README.md` following the existing format (include repository URL, star badge, and clear summary).
+3. 📝 Add your entry to `README.md` following the existing format (include repository URL, Stars_Badge, and clear summary).
 4. 🚀 Submit a Pull Request describing your additions.
 
 ---
