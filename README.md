@@ -44,65 +44,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Sales Cloud](https://salesforce.com)**  
-
-  Industry-leading enterprise cloud CRM platform offering customizable sales pipelines, Agentforce AI automation, forecasting, AppExchange integrations, and enterprise governance.
-
-
-
-- **[HubSpot CRM](https://hubspot.com)**  
-
-  All-in-one inbound marketing, sales pipeline, and customer service CRM featuring contact activity timelines, email tracking, deal boards, and workflow automation.
-
-
-
-- **[Pipedrive](https://pipedrive.com)**  
-
-  Sales-first visual pipeline CRM engineered for small and mid-sized sales teams with activity-based selling, email sync, and AI deal insights.
-
-
-
-- **[Zoho CRM](https://zoho.com)**  
-
-  Comprehensive cloud CRM suite offering omnichannel communication, workflow automation, Zia AI analytics, and tight integration across the Zoho business ecosystem.
-
-
-
-- **[Close CRM](https://close.com)**  
-
-  High-velocity sales CRM built for inside sales and B2B outbound teams featuring built-in power/predictive dialers, SMS, email sequences, and call coaching.
-
-
-
-- **[Freshsales (Freshworks)](https://freshworks.com)**  
-
-  AI-assisted cloud CRM combining visual deal pipelines, built-in cloud telephony, behavioral lead scoring, and automated outreach sequences.
-
-
-
-- **[Microsoft Dynamics 365 Sales](https://microsoft.com)**  
-
-  Enterprise CRM platform deeply integrated with Microsoft 365, Teams, LinkedIn Sales Navigator, and Copilot AI relationship intelligence.
-
-
-
-- **[Copper](https://copper.com)**  
-
-  CRM purpose-built for Google Workspace teams, embedding contact management, deal tracking, and automated email logging directly inside Gmail and Google Calendar.
-
-
-
-- **[Insightly](https://insightly.com)**  
-
-  Unified cloud CRM and post-sale project delivery platform connecting sales pipelines directly to client onboarding workflows and custom objects.
-
-
-
-- **[Zendesk Sell](https://zendesk.com)**  
-
-  Sales productivity CRM uniting lead management, call/email tracking, and seamless visibility into customer support tickets from Zendesk Service.
+| Platform | Company Size (Valuation / Revenue) | Starting Pricing | Free Tier Limits / Free Trial | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Dynamics 365 Sales](https://microsoft.com)** | **$3.1T+** Market Cap (Microsoft parent; $245B+ total annual revenue) | $65/user/month (Sales Professional, billed annually) | No free tier; 30-day free trial with full feature access | Enterprise CRM platform deeply integrated with Microsoft 365, Teams, LinkedIn Sales Navigator, and Copilot AI relationship intelligence. |
+| **[Salesforce Sales Cloud](https://salesforce.com)** | **$250B+** Market Cap ($38B+ annual revenue) | $25/user/month (Starter Suite, billed monthly or annually) | No free tier; 30-day free trial with full feature access (no credit card required) | Industry-leading enterprise cloud CRM platform offering customizable sales pipelines, Agentforce AI automation, forecasting, AppExchange integrations, and enterprise governance. |
+| **[HubSpot CRM](https://hubspot.com)** | **$21B+** Market Cap ($3.1B+ annual revenue) | $15/user/month (Sales Hub Starter, billed annually) or $20/month | Free forever tier: up to 2 users, 1,000 marketing contacts (up to 1M standard records), 1 deal pipeline, 2,000 email sends/month, HubSpot branding included; 14-day free trial for paid tiers | All-in-one inbound marketing, sales pipeline, and customer service CRM featuring contact activity timelines, email tracking, deal boards, and workflow automation. |
+| **[Zoho CRM](https://zoho.com)** | **$12.5B** Estimated Valuation ($1.4B+ annual revenue, bootstrapped/profitable) | $14/user/month (Standard, billed annually) or $20/user/month | Free forever tier: up to 3 users, 5,000 records, standard lead/contact/deal management; 15-day free trial for paid editions | Comprehensive cloud CRM suite offering omnichannel communication, workflow automation, Zia AI analytics, and tight integration across the Zoho business ecosystem. |
+| **[Zendesk Sell](https://zendesk.com)** | **$10.2B** Acquisition Valuation ($1.7B+ annual revenue, acquired by H&F/Permira) | $19/user/month (Sell Team, billed annually) | No free tier; 14-day free trial (eligible for a 14-day extension via admin portal) | Sales productivity CRM uniting lead management, call/email tracking, and seamless visibility into customer support tickets from Zendesk Service. |
+| **[Freshsales (Freshworks)](https://freshworks.com)** | **$3.6B+** Market Cap ($720M+ annual revenue) | $9/user/month (Growth, billed annually) or $11/user/month | Free forever tier: up to 3 users, contact/account/deal management, Kanban view, built-in chat/email/phone; 21-day free trial for Pro/Enterprise | AI-assisted cloud CRM combining visual deal pipelines, built-in cloud telephony, behavioral lead scoring, and automated outreach sequences. |
+| **[Copper](https://copper.com)** | **$2.0B** Peak Private Valuation ($100M+ funding raised) | $23/user/month (Basic, billed annually) or $29/user/month | No free tier; 14-day free trial (Basic tier capped at 2,500 contacts, Professional at 15,000 contacts) | CRM purpose-built for Google Workspace teams, embedding contact management, deal tracking, and automated email logging directly inside Gmail and Google Calendar. |
+| **[Pipedrive](https://pipedrive.com)** | **$1.5B** Acquisition Valuation (Acquired by Vista Equity Partners) | $14/user/month (Lite, billed annually) or $24/user/month | No free tier; 14-day free trial (300,000 open deals account-wide limit, unlimited contacts) | Sales-first visual pipeline CRM engineered for small and mid-sized sales teams with activity-based selling, email sync, and AI deal insights. |
+| **[Insightly](https://insightly.com)** | **$150M+** Estimated Valuation (~$37M estimated ARR, $38M venture funded) | $29/user/month (Plus, billed annually) | No free tier (legacy free tier discontinued); 14-day free trial for Plus and Professional (100,000 records & 10 GB storage on Plus) | Unified cloud CRM and post-sale project delivery platform connecting sales pipelines directly to client onboarding workflows and custom objects. |
+| **[Close CRM](https://close.com)** | **$120M+** Estimated Valuation ($30M+ ARR, bootstrapped/profitable) | $9/user/month (Solo, billed annually) or $19/month | No free tier; 14-day free trial including calling/AI test credits (Solo capped at 1 user and 10,000 leads) | High-velocity sales CRM built for inside sales and B2B outbound teams featuring built-in power/predictive dialers, SMS, email sequences, and call coaching. |
 
 
 
